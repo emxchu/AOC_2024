@@ -41,19 +41,7 @@ check_if_line_is_safe(numbers, safe_lines,non_safe_lines)
 print(safe_lines)
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

@@ -31,30 +31,7 @@ for index, item in enumerate(list1):
 
 print(y)
         
-get_ipython().system('jupyter nbconvert --to script mycode.ipynb')
-with open('mycode.py', 'r') as f:
-    lines = f.readlines()
-with open('mycode.py', 'w') as f:
-    for line in lines:
-        if 'nbconvert --to script' in line:
-            break
-        else:
-            f.write(line)    
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

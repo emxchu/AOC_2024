@@ -22,7 +22,7 @@ print(result)
 result2 = 0
 regex = r"don't\(\).*?do\(\)"
 
-numbers_do = re.sub(regex, '', content, flags=re.DOTALL)
+numbers_do = re.sub(regex, '', content + 'do', flags=re.DOTALL)
 numbers2 = re.findall(r"mul\((\d+),(\d+)\)", numbers_do)
 
 for i in numbers2:
